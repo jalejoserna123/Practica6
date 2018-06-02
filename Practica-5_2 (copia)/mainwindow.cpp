@@ -14,8 +14,8 @@ MainWindow::MainWindow(QWidget *parent) :
     scena->addRect(scena->sceneRect());    // Adiciona a la escena el rectangulo con las nuevas propiedades
     connect(timer,SIGNAL(timeout()),this,SLOT(mover())); // conexion del timer con el slot mover()
     srand(NULL);
-   // rect= scena->addRect(-500,0,1000,0);
-
+   // rect2= scena->addRect(-300,0,100,0);
+   // rect3= scena->addRect(300,0,100,0);
 }
 
 

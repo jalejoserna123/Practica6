@@ -5,7 +5,6 @@
 
 
 
-
 double movimiento::getPosx()
 {
     return posx;
@@ -92,7 +91,7 @@ void movimiento::ActualizaPos()
         posy=-250;
 
 
-       if(posx+r>=500 || posx-r<=-500)
+        if(posx+r>=500 || posx-r<=-500)
             vx=-restitucion*vx;
 
         if(posy+r>=250 || posy-r<=-250)
